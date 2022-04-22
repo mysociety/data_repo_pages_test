@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "template_data_repo"
+name = "data_repo_pages_test"
 version = "0.1.0"
-description = "Standardised template for mysociety data repositories"
+description = "Test of auto github pages repo."
 authors = []
 
 [tool.poetry.dependencies]
@@ -12,7 +12,7 @@ data_common = { path = "src/data_common/", develop = true }
 pytest = "^7.1.1"
 
 [tool.poetry.scripts]
-notebook = 'template_data_repo.cli:main'
+notebook = 'data_repo_pages_test.cli:main'
 
 [notebook.settings]
 default_page_title = "Settings file defined title"
